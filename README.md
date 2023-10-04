@@ -7,3 +7,9 @@ A word is split into syllables by calling the 'create_syllables' function as sho
 syllables = create_syllables(word="decembrskega", vowels=get_vowel_graphemes())
 print(syllables)
 ```
+
+A phoneme transcription of a word is split into syllables by calling 'syllabize_phonemes' function as shown below:
+```
+syllables = syllabize_phonemes("d E ts E m b @ r s k E g a")
+print(syllables)
+```
